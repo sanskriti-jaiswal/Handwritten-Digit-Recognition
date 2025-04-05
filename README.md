@@ -70,5 +70,10 @@ pip install pygame keras tensorflow numpy opencv-python
 - **TensorFlow/Keras** for deep learning model implementation.
 - **Pygame** for GUI development.
 
+### Watch video
+https://github.com/user-attachments/assets/9c1333cc-5dd5-4b87-b115-8ec6c99b2f15
+
+
+
 
 
