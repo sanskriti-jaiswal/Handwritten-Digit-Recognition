@@ -42,11 +42,28 @@ pip install pygame keras tensorflow numpy opencv-python
 - Architecture consists of **convolutional, pooling, and fully connected layers**.
 - Achieves **high accuracy** in handwritten digit classification.
 
+### Tech Stack / Tools Used
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- Pygame
+- MNIST dataset
+
 ### Usage
 - **Draw a digit** using the mouse in the GUI window.
 - **Release the mouse** to allow the model to predict the digit.
 - The **recognized digit** is displayed on the screen.
 - Press **'N'** to clear the screen for a new input.
+
+### How It Works
+- User draws a digit on a Pygame canvas.
+- The drawn image is captured and converted to grayscale using OpenCV.
+- Image is thresholded, cropped, resized to 28x28, and normalized.
+- The preprocessed image is reshaped and passed to a trained CNN model.
+- The CNN predicts the digit based on the highest softmax probability.
+- The predicted digit is displayed on the GUI in real-time.
 
 ### Acknowledgments
 - **MNIST dataset** for handwritten digit recognition.
