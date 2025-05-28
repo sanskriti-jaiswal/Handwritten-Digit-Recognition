@@ -1,4 +1,4 @@
-## Handwritten Digit Recognition
+## NumScan
 
 ### Overview
 This project implements a **Handwritten Digit Recognition** system using a **Convolutional Neural Network (CNN)** trained on the **MNIST dataset**. The project consists of a **Python GUI application** built using `pygame` for digit input and a **Jupyter Notebook** for training and testing the model.
